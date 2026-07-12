@@ -6,4 +6,6 @@ criação de base de regras e revisão sendo feita por mim.
 Estrutura:
 
 Fase incial 1.0 -> Criação de toda a parte backend
+
+
 Fase 2.0 -> Criação da parte Visual frontend , e base de dados SQL
