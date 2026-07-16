@@ -821,7 +821,7 @@ def criar_produto():
     produto.exibir()
 
     # Verifica alerta inicial
-    if produto.quantidade_atual <= produto.quantidade_minima:
+    if produto.quantidade_atual <= produto.quantidade_minima: # type: ignore
         print(cor("ALERTA: Produto criado com stock abaixo do minimo!", "vermelho"))
 
     return produto
